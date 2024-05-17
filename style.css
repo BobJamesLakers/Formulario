@@ -1,0 +1,115 @@
+/* Estilos gerais */
+.body {
+    text-align: center;
+    align-items: center;
+    background-color: black; /* Fundo preto */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #fff; /* Texto branco para contraste */
+}
+
+/* Container principal */
+.container {
+    max-width: 400px; /* Tamanho reduzido */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Fundo cinza escuro para contraste */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px; /* Espaço entre a imagem e o título */
+}
+
+header .logo {
+    max-width: 50px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #ffd700; /* Texto em amarelo */
+}
+
+/* Estilo do formulário */
+.formulario {
+    text-align: left;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffd700; /* Texto amarelo */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"],
+.formulario input[type="date"],
+.formulario input[type="month"],
+.formulario input[type="time"],
+.formulario input[type="file"],
+.formulario input[type="number"],
+.formulario input[type="search"],
+.formulario input[type="url"],
+.formulario input[type="color"],
+.formulario input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffd700; /* Borda amarela */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333; /* Fundo cinza escuro */
+    color: #ffd700; /* Texto amarelo */
+}
+
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #ffd700;
+    height: 100px;
+    resize: vertical;
+}
+
+.formulario input[type="submit"],
+.formulario input[type="reset"] {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700; /* Fundo amarelo */
+    color: black; /* Texto preto */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover,
+.formulario input[type="reset"]:hover {
+    background-color: #ffcc00; /* Fundo amarelo mais escuro */
+}
+
+/* Estilo da imagem */
+.img2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    filter: brightness(150%); /* Efeito de brilho */
+}
